@@ -13,15 +13,9 @@
 <body>
   <main class="hero">
     <div class="row">
-      <button class="btn btn-transparent" onclick="window.location.href='proyectos.html'">
-        Works
-      </button>
-      <button class="btn btn-transparent" onclick="window.location.href='about.html'">
-       About
-      </button>
-      <button class="btn btn-transparent" onclick="window.location.href='contact.html'">
-        Contact
-      </button>
+      <button class="btn btn-transparent" onclick="window.location.href='/'">
+        <i class="material-icons home-icon">home</i> Home
+    </button>
   </div>
     <div class="content">
       <h1>Hello.</h1>
@@ -36,4 +30,5 @@
     </div>
   </main>
 </body>
+
 </html>

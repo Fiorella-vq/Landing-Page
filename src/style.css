@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('assets/img/2.0.avif');
-    background-color: #000;
+    background-color: #10010ef0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,7 +32,6 @@ body {
     font-weight: 500;
     margin: 0 0 2rem;
     color: #fff;
-    background-color: rgba(57, 3, 55, 0.2); 
    
 }
 
@@ -43,7 +41,7 @@ p {
     line-height: 1.6;
     color:  white;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
-    background-color: rgba(57, 3, 55, 0.2); 
+   
 }
   
   a {
@@ -57,26 +55,24 @@ p {
   }
   
 
-  
-  .btn-transparent {
-      background: none;
-      border: 2px solid transparent;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, color 0.3s ease;
-      transform: rotate(-90deg) translateY(-50%);
-  }
+.btn {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease; 
+}
 
-  .btn-transparent:hover {
-      background-color: rgba(255, 255, 255, 0.2); 
-      color: white;
-  }
 
-  .home-icon {
-      vertical-align: middle; 
-      margin-right: 0.5rem; 
-  }
+.btn:hover {
+  transform: translateX(10px); 
+  color: #f61ff2;
+}
+
+
 
   
