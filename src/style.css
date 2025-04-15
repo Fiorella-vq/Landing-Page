@@ -1,5 +1,82 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/img/2.0.avif');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+    
 }
+  
+  .hero {
+    display: flex;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+
+  .content {
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-size: 10rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin: 0 0 2rem;
+    color: #fff;
+    background-color: rgba(57, 3, 55, 0.2); 
+   
+}
+
+  
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color:  white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-color: rgba(57, 3, 55, 0.2); 
+}
+  
+  a {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #f61ff2;
+  }
+  
+
+  
+  .btn-transparent {
+      background: none;
+      border: 2px solid transparent;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      transform: rotate(-90deg) translateY(-50%);
+  }
+
+  .btn-transparent:hover {
+      background-color: rgba(255, 255, 255, 0.2); 
+      color: white;
+  }
+
+  .home-icon {
+      vertical-align: middle; 
+      margin-right: 0.5rem; 
+  }
+
+  
